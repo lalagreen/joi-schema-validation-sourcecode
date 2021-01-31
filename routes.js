@@ -9,6 +9,7 @@ const validateRequest = SchemaValidator(true);
 // generic route handler
 const genericHandler = (req, res, next) => {
     res.json({
+        message: 'User created Successfully',
         status: 'success',
         data: req.body
     });

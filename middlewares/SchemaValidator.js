@@ -8,7 +8,7 @@ module.exports = (useJoiError = false) => {
     const _useJoiError = _.isBoolean(useJoiError) && useJoiError;
 
     // enabled HTTP methods for request data validation
-    const _supportedMethods = ['post', 'put'];
+    const _supportedMethods = ['get','post','put'];
     
     // Joi validation options
     const _validationOptions = {
